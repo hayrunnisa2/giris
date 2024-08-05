@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+mobile_menu {
+    position: fixed;
+    top: 50px;
+    right: -200px;
+    height: 100vh;
+    width: 200px;
+    z-index: 15;
+    background-color: #fff;
+}
+.text-right {
+    text-align: right;
+}
+.pt-\[70px\] {
+    padding-top: 70px;
+}
+.pb-\[20px\] {
+    padding-bottom: 20px;
+}
+.px-\[20px\] {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.relative {
+    position: relative;
+}
+#main-header{
+    height: 50px;
+    margin-left: 98%;
+}
+.w-\[70px\] {
+    width: 70px;
+}
+.h-\[70px\] {
+    height: 70px;
+}
+.mb-\[50px\] {
+    margin-bottom: 50px;
+}
+.float-right {
+    float: right;
+}
+.social {
+    margin-bottom: 2px;
+}
+.w-full {
+width: 100%;
+}
+.mb-\[7px\] {
+margin-bottom: 7px;
+}
+.float-left {
+float: left;
+}
+.features{
+    position: absolute;
+    top: 85%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    font-family: "Inter", "sans-serif";
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--dark-color);
+    font-style: normal;
+    margin-top: 5px;
+    
+}
+#features{
+    font-family: "Inter", "sans-serif";
+    top: 90%;
+    left: 30%;
+}
+.elisc_tm_home .elisc_tm_button {
+    width: auto;
+    margin-left: 15px;
+}
+.elisc_tm_button {
+    float: left;
+    box-sizing: border-box;
+    margin: 10px;
+    width: 100%;
+    float: left;
+}
+.elisc_tm_home .elisc_tm_button:nth-child(2) {
+    margin-left: 15px;
+}
+.elisc_tm_button a {
+    color: #fff;
+    background-color: #130f49;
+    display: inline-block;
+    border: 1.5px solid #130f49;
+    border-radius: 4px;
+    padding: 9px 40px 9px 40px;
+    box-sizing: border-box;
+    text-decoration-line: none;
+    
+}
+.elisc_tm_button[data-style="border"] a {
+    background-color: transparent;
+    color: #55527c;
+}
+.elisc_tm_button a {
+    color: #fff;
+    background-color: #130f49;
+    display: inline-block;
+    border: 1.5px solid #130f49;
+    border-radius: 4px;
+    padding: 9px 40px 9px 40px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration-line: none;  
+}
+.pl-\[15px\] {
+    padding-left: 15px;
+}
+ul li, ol li {
+    margin: 0px;
+}
+.elisc_tm_all_wrap, .elisc_tm_all_wrap * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+.elisc_tm_home .info ul li a {
+    font-size: 16px;
+}
+.text-\[\#130F49\] {
+    --tw-text-opacity: 1;
+    color: rgb(19 15 73 / var(--tw-text-opacity));
+    box-sizing: border-box;
+    margin: 10px;
+}
+.font-semibold {
+    font-weight: 600;
+}
+
